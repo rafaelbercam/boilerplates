@@ -1,0 +1,29 @@
+{
+  "name": "api-tests-typescript",
+  "version": "1.0.0",
+  "description": "api tests with typescript",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc",
+    "clean": "rimraf build/",
+    "test": "npm run clean && npm run build && cd build/test/ && mocha --file *.js --timeout 25000"
+  },
+  "keywords": [
+    "typescript",
+    "test",
+    "api"
+  ],
+  "author": "Rafael Bercam Medeiros",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/chai": "^4.2.18",
+    "@types/mocha": "^8.2.2",
+    "chai": "^4.3.4",
+    "chai-as-promised": "^7.1.1",
+    "chai-http": "^4.3.0",
+    "dotenv": "^10.0.0",
+    "mocha": "^9.0.1",
+    "rimraf": "^3.0.2",
+    "typescript": "^4.3.4"
+  }
+}
