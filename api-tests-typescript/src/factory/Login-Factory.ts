@@ -8,6 +8,11 @@ const loginFactory = {
     loginFail: {
         "email" : "fulano@qa.com",
         "password": "test"
+    },
+
+    loginEmailRequired: {
+        "email" : "",
+        "password": "test"
     }
 }
 
