@@ -1,6 +1,6 @@
 import * as dotenv from 'dotenv'
 dotenv.config({ path: '../../.env' });
 
-export default class Config {
-    
+module.exports = {
+    url: `${process.env.PROD}`
 }
