@@ -1,8 +1,8 @@
-
 import chai = require('chai');
 import chaiHttp = require('chai-http');
 chai.use(chaiHttp);
 const conf = require('../config/index')
+
 export async function postLogin(credentials: any) {
     return await chai
         .request(conf.url)
