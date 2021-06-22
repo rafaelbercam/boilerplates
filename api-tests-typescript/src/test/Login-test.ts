@@ -1,14 +1,23 @@
 import { expect } from "chai";
 import loginFactory from "../factory/Login-factory";
+import UserFactory from "../factory/User-factory";
 import { postLogin } from "../services/Login-service";
+import { postUser } from "../services/Users-service";
 
 require ('dotenv').config({ path: '../../.env' })
 
 let response: any;
-
+let user: any;
 describe('Login test request', async ()=>{
+
+
+    before(async()=>{
+        user = UserFactory.createUser();
+        await postUser(user);
+    })
+
     it('Login Success', async ()=>{       
-        response = await postLogin(loginFactory.loginSuccess);
+        response = await postLogin(user);
         expect(response.statusCode).to.eq(200);
         expect(response.body.message).to.eq('Login realizado com sucesso');   
     })

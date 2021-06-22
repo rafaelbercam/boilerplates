@@ -1,9 +1,12 @@
 import { expect } from "chai";
 import UserFactory from "../factory/User-factory";
-import { getUserById, getUsers, postUser } from "../services/Users-service";
+import { deleteUser, getUserById, getUsers, postUser, putUser } from "../services/Users-service";
 
 let response: any;
 let _id: string;
+let new_id: string;
+let newData: any;
+
 
 describe('User test request', async ()=>{
     it('get users', async () => {
@@ -20,9 +23,30 @@ describe('User test request', async ()=>{
     })
 
     it('post new user', async () => {
-        response = await postUser(UserFactory.createUser());
+        newData = UserFactory.createUser();
+        response = await postUser(newData);
         expect(response.statusCode).to.eq(201);
         expect(response.body.message).to.eq('Cadastro realizado com sucesso')
+        new_id = response.body._id
+    })
+
+    it('put user - new data', async () => {
+        response = await putUser(UserFactory.createUser(), new_id);
+       
+        expect(response.statusCode).to.eq(200);
+        expect(response.body.message).to.eq('Registro alterado com sucesso');
+       
+        let getUpdateUser: any = await getUserById(new_id);
+
+        expect(getUpdateUser.body.nome).not.eq(newData.nome);
+        expect(getUpdateUser.body.email).not.eq(newData.email);
+        expect(getUpdateUser.body.password).not.eq(newData.password);
+    })
+
+    it('delete user', async ()=>{
+        response = await deleteUser(new_id);
+        expect(response.statusCode).to.eq(200);
+        expect(response.body.message).to.eq('Registro excluído com sucesso');
     })
     
 })

@@ -18,8 +18,6 @@ const UserFactory = {
             "administrador": administrador
         }
     }
-
-   
 }
 
 export default UserFactory;
