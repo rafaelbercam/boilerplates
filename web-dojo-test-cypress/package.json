@@ -1,0 +1,17 @@
+{
+  "name": "tduai",
+  "version": "1.0.0",
+  "description": "Testes e2e todo list com Cypress",
+  "main": "index.js",
+  "scripts": {
+    "cypress:open": "cypress open",
+    "cypress:run": "cypress run"
+  },
+  "keywords": [],
+  "author": "Rafael Berçam Medeiros",
+  "license": "ISC",
+  "devDependencies": {
+    "cypress": "^7.5.0",
+    "faker": "^4.1.0"
+  }
+}
