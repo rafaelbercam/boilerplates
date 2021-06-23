@@ -13,7 +13,7 @@ Traduzindo em poucas palavras: é um código padrão ou esqueleto de um código 
 * [Automação de Testes API com TypeScript](https://github.com/rafaelbercam/boilerplates/tree/latest/api-tests-typescript)
 
 ### Testes Web
-* em breve
+* [Automação de Testes Web com Cypress](https://github.com/rafaelbercam/boilerplates/tree/latest/web-dojo-test-cypress)
 
 ### Testes Mobile
 * em breve
