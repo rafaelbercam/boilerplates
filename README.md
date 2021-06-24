@@ -16,7 +16,7 @@ Traduzindo em poucas palavras: é um código padrão ou esqueleto de um código 
 * [Automação de Testes Web com Cypress](https://github.com/rafaelbercam/boilerplates/tree/latest/web-dojo-test-cypress)
 
 ### Testes Mobile
-* em breve
+* [Automação de Testes Mobile com WebdriverIO](https://github.com/rafaelbercam/boilerplates/tree/latest/boilerplate_webdriverio_mobile-master)
 
 
 ### Web Crawler
