@@ -10,15 +10,15 @@ Traduzindo em poucas palavras: é um código padrão ou esqueleto de um código 
 
 ### Testes API
 
-* [Automação de Testes API com TypeScript](https://github.com/rafaelbercam/boilerplates/tree/latest/api-tests-typescript)
-* [Automação de Testes API com HTTParty/Ruby](https://github.com/rafaelbercam/boilerplates/tree/latest/boilerplate-testing-api-ruby-httparty)
+* [Automação de Testes API com TypeScript](https://github.com/rafaelbercam/api-tests-typescript)
+* [Automação de Testes API com HTTParty/Ruby](https://github.com/rafaelbercam/boilerplate-testing-api-ruby-httparty)
 
 ### Testes Web
-* [Automação de Testes Web com Cypress](https://github.com/rafaelbercam/boilerplates/tree/latest/web-dojo-test-cypress)
+* [Automação de Testes Web com Cypress](https://github.com/rafaelbercam/web-dojo-test-cypress)
 
 ### Testes Mobile
-* [Automação de Testes Mobile com WebdriverIO](https://github.com/rafaelbercam/boilerplates/tree/latest/boilerplate_webdriverio_mobile-master)
+* [Automação de Testes Mobile com WebdriverIO](https://github.com/rafaelbercam/boilerplate_webdriverio_mobile)
 
 
 ### Web Crawler
-* [Alerta de Preço com Puppeteer](https://github.com/rafaelbercam/boilerplates/tree/latest/alert-price-Puppeteer)
+* [Alerta de Preço com Puppeteer](https://github.com/rafaelbercam/alert-price-Puppeteer)
