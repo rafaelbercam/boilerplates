@@ -1,0 +1,39 @@
+{
+  "name": "wdio_boilerplate",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "android.app": "yarn run wdio ./config/wdio.android.app.conf.js",
+    "android.emulator.app": "yarn run wdio ./config/wdio.android.emulator.app.conf.js",
+    "ios.app": "yarn run wdio ./config/wdio.ios.app.conf.js",
+    "ios.sauce.rdc.app": "yarn run wdio ./config/saucelabs/wdio.ios.rdc.app.conf.js",
+    "android.aws.app": "yarn run wdio ./config/aws/wdio.android.aws.app.conf.js"
+  },
+  "keywords": [
+    "WebdriverIO",
+    "WebDriver",
+    "appium",
+    "native app",
+    "hybrid",
+    "android",
+    "ios"
+  ],
+  "author": "Rafael Bercam",
+  "license": "ISC",
+  "dependencies": {
+    "@wdio/cli": "^6.1.5"
+  },
+  "devDependencies": {
+    "@wdio/allure-reporter": "^6.1.5",
+    "@wdio/local-runner": "^6.1.6",
+    "@wdio/mocha-framework": "^6.1.6",
+    "@wdio/selenium-standalone-service": "^6.0.16",
+    "@wdio/spec-reporter": "^6.1.5",
+    "@wdio/sync": "^6.1.5",
+    "allure-commandline": "^2.13.0"
+  },
+  "bundledDependencies": [
+    "@wdio/cli"
+  ]
+}
