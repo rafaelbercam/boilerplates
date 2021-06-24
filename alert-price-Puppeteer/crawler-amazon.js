@@ -42,11 +42,11 @@ async function startTracking() {
 async function sendNotification(price) {
 
     let transporter = nodemailer.createTransport({
-      host: "smtp.umbler.com",
-      port: 587,
+      host: "example.com",
+      port: 999,
       auth: {
-        user: "price.tracker@codeliketester.dev",
-        pass: "zup2021#"
+        user: "email@example.com",
+        pass: "password#"
       }
     });
   
@@ -54,7 +54,7 @@ async function sendNotification(price) {
     let htmlText = `<a href=\"${url}\">Link</a>`;
   
     let info = await transporter.sendMail({
-      from: '"Price Tracker" <price.tracker@codeliketester.dev>',
+      from: '"Price Tracker" <email@example.com>',
       to: "faelbercam@gmail.com",
       subject: 'O Preço caiu para ' + price, 
       text: textToSend,
