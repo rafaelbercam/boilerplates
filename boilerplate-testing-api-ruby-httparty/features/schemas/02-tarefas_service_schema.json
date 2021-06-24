@@ -1,0 +1,71 @@
+{
+    "description": "schema response task",
+    "type": "object",
+    "properties": {
+        "data": {
+            "type": "object",
+            "properties":{
+                "id":{
+                    "type": "string"
+                },
+                "type":{
+                    "type": "string"
+                },
+                "attributes":{
+                    "type":"object",
+                    "properties":{
+                        "title":{
+                            "type": "string"
+                        },
+                        "description":{
+                            "type": "string"
+                        },
+                        "done":{
+                            "type": "boolean"
+                        },
+                        "deadline":{
+                            "type": "null"
+                        },
+                        "user-id":{
+                            "type": "number"
+                        },
+                        "created-at":{
+                            "type":"string"
+                        },
+                        "updated-at":{
+                            "type":"string"
+                        },
+                        "short-description":{
+                            "type": "string"
+                        },
+                        "is-late":{
+                            "type": "null"
+                        }
+                    }
+                },
+                "relationships":{
+                    "type": "object",
+                    "properties":{
+                        "user": {
+                            "type": "object",
+                            "properties":{
+                                "data": {
+                                    "type": "object",
+                                    "properties":{
+                                        "id":{
+                                            "type":"string"
+                                        },
+                                        "type":{
+                                            "type":"string"
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+

@@ -1,0 +1,13 @@
+## YAML Templatesss
+---
+default: -p pretty -p json -p dev -p ns
+ns: --no-source
+pretty: --format pretty
+ci:  --format progress
+
+html:  --format html --out=results/report.html
+json:  --format json --out=results/report.json
+
+dev: ENVIRONMENT=dev
+hmg: ENVIRONMENT=hmg
+

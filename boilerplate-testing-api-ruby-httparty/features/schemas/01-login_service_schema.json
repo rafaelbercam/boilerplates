@@ -1,0 +1,34 @@
+{
+    "description": "schema response login",
+    "type": "object",
+    "properties": {
+        "data": {
+            "type": "object",
+            "properties":{
+                "id":{
+                    "type": "string"
+                },
+                "type":{
+                    "type": "string"
+                },
+                "attributes":{
+                    "type":"object",
+                    "properties":{
+                        "email":{
+                            "type": "string"
+                        },
+                        "auth-token":{
+                            "type": "string"
+                        },
+                        "created-at":{
+                            "type":"string"
+                        },
+                        "updated-at":{
+                            "type":"string"
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
