@@ -1,0 +1,27 @@
+{
+  "name": "boilerplatepuppeteer",
+  "version": "1.0.0",
+  "description": "boilerplate test project puppetter",
+  "main": "index.js",
+  "scripts": {
+    "puppeteer": "node *js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "null"
+  },
+  "keywords": [
+    "puppeteer",
+    "test",
+    "qa"
+  ],
+  "author": "Rafael Bercam Medeiros",
+  "license": "MIT",
+  "dependencies": {
+    "cheerio": "^1.0.0-rc.6",
+    "cron": "^1.8.2",
+    "nodemailer": "^6.5.0",
+    "puppeteer": "^9.0.0",
+    "puppeteer-core": "^9.0.0"
+  }
+}
