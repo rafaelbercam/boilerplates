@@ -11,7 +11,7 @@ Traduzindo em poucas palavras: é um código padrão ou esqueleto de um código 
 ### Testes API
 
 * [Automação de Testes API com TypeScript](https://github.com/rafaelbercam/boilerplates/tree/latest/api-tests-typescript)
-* [Automação de Testes API com HTTParty/Ruby] (https://github.com/rafaelbercam/boilerplates/tree/latest/boilerplate-testing-api-ruby-httparty)
+* [Automação de Testes API com HTTParty/Ruby](https://github.com/rafaelbercam/boilerplates/tree/latest/boilerplate-testing-api-ruby-httparty)
 
 ### Testes Web
 * [Automação de Testes Web com Cypress](https://github.com/rafaelbercam/boilerplates/tree/latest/web-dojo-test-cypress)
