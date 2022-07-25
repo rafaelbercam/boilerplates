@@ -14,6 +14,7 @@ Traduzindo em poucas palavras: é um código padrão ou esqueleto de um código 
 * [Automação de Testes API com HTTParty/Ruby](https://github.com/rafaelbercam/boilerplate-testing-api-ruby-httparty)
 
 ### Testes Web
+* [Automação de Testes Web com Playwright](https://github.com/rafaelbercam/playwright-tests-jest)
 * [Automação de Testes Web com Cypress](https://github.com/rafaelbercam/web-dojo-test-cypress)
 
 ### Testes Mobile
