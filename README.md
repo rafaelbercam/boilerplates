@@ -13,6 +13,7 @@ Traduzindo em poucas palavras: é um código padrão ou esqueleto de um código 
 * [Automação de Testes API com TypeScript](https://github.com/rafaelbercam/api-tests-typescript)
 * [Automação de Testes API com HTTParty/Ruby](https://github.com/rafaelbercam/boilerplate-testing-api-ruby-httparty)
 * [Automação de Testes API com Supertest & Jest - TypeScript](https://github.com/rafaelbercam/supertest-jest)
+* [Automação de testes API com Pytest - Python](https://github.com/rafaelbercam/automated_tests_pytest)
 
 ### Testes Web
 * [Automação de Testes Web com Playwright](https://github.com/rafaelbercam/playwright-tests-jest)
