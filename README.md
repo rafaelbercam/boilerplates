@@ -11,7 +11,7 @@ Traduzindo em poucas palavras: é um código padrão ou esqueleto de um código 
 ### Testes API
 * [Automação de Testes API com Kotlin + REST-assured](https://github.com/rafaelbercam/APITestsKotlin)
 * [Automação de Testes API com TypeScript](https://github.com/rafaelbercam/api-tests-typescript)
-* [Automação de Testes API com HTTParty/Ruby](https://github.com/rafaelbercam/boilerplate-testing-api-ruby-httparty)
+* [Automação de Testes API com RSpec e HTTParty - Ruby](https://github.com/rafaelbercam/api_tests_api_rspec)
 * [Automação de Testes API com Supertest & Jest - TypeScript](https://github.com/rafaelbercam/supertest-jest)
 * [Automação de testes API com Pytest - Python](https://github.com/rafaelbercam/automated_tests_pytest)
 
