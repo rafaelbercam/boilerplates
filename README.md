@@ -9,7 +9,7 @@ Traduzindo em poucas palavras: é um código padrão ou esqueleto de um código 
 ## __Seções__
 
 ### Testes API
-* [Automação de Testes API com Kotlin + REST-assured](https://github.com/rafaelbercam/APITestsKotlin)
+* [Automação de Testes API com REST-assured - Kotlin](https://github.com/rafaelbercam/APITestsKotlin)
 * [Automação de Testes API com Mocha e Chai - TypeScript](https://github.com/rafaelbercam/api-tests-typescript)
 * [Automação de Testes API com RSpec e HTTParty - Ruby](https://github.com/rafaelbercam/api_tests_api_rspec)
 * [Automação de Testes API com Supertest & Jest - TypeScript](https://github.com/rafaelbercam/supertest-jest)
