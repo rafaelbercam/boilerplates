@@ -17,7 +17,7 @@ Traduzindo em poucas palavras: é um código padrão ou esqueleto de um código 
 * [Automação de testes API com Pytest - Python](https://github.com/rafaelbercam/automated_tests_pytest)
 
 ### Testes Web
-* [Automação de Testes Web com Playwright](https://github.com/rafaelbercam/playwright-tests-jest)
+* [Automação de Testes Web com Playwright](https://github.com/rafaelbercam/boilerplate-playwright)
 * [Automação de Testes Web com Cypress](https://github.com/rafaelbercam/web-dojo-test-cypress)
 
 ### Testes Mobile
