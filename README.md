@@ -15,6 +15,7 @@ Traduzindo em poucas palavras: é um código padrão ou esqueleto de um código 
 * [Automação de Testes API com RSpec e HTTParty - Ruby](https://github.com/rafaelbercam/api_tests_api_rspec)
 * [Automação de Testes API com Supertest & Jest - TypeScript](https://github.com/rafaelbercam/supertest-jest)
 * [Automação de testes API com Pytest - Python](https://github.com/rafaelbercam/automated_tests_pytest)
+* [Automação de Testes API de Mensagens Tópico Kafka com Awaitility - Kotlin](https://github.com/rafaelbercam/async-tests-kafka-awaitility)
 
 ### Testes Web
 * [Automação de Testes Web com Playwright](https://github.com/rafaelbercam/boilerplate-playwright)
